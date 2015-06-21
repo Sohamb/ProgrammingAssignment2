@@ -26,7 +26,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function is the function corresponding to cachemean()
+## This function is the function corresponding to cachemean() 
+## And is used in the same way as the solve() function of R
 
 cacheSolve <- function(x, ...) {
   i <- x$getsolve()
