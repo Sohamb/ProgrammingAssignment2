@@ -1,10 +1,13 @@
 ## The functions work in the same way as the makeVector() and the cachemean() functions.
-## First pass make a random square matrix and store it in a variable.
+
+## First make a random square matrix and store it in a variable (say original_matrix).
 ## Then pass it through the makeCacheMatrix() function and assign it to a new variable.
 ## Finally call the cacheSolve() function to use the inverse whenever needed 
 ## in the same way as the solve() function is called. 
-## If the value is stored in cache...it's stored value is called
-## Else the cache is updated with the inversion matrix of the passed matrix
+## If the value is stored in cache...it's stored value is returned
+## Else the cache is updated with the inversion matrix of the matrix passed as argument
+## The outputed matrix is the inverse of the first matrix variable (in this case original_matrix).
+## Output can be matrix multiplied (i.e. %*%) with the original_matrix and it should yield an identity matrix.
 
 ## This function is the function corresponding to makeVector()
 
